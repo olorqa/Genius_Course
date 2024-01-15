@@ -1,0 +1,13 @@
+.button {
+    color: #faf4ea;
+    background-color: #819b57;
+    border: 2px solid #819b57;
+    border-radius: 8px;
+    cursor: pointer;
+} 
+/* для оформлення классу ставиться крапка, а потім назва классу. звертання до псевдукласу іде через клаз як в прикладі нижче: клас - button, псевдоклас -hover - для зміни кольору кнопки при наведенні на неї  */
+
+.button:hover {
+    color: #465929;
+    background-color: transparent;
+}
